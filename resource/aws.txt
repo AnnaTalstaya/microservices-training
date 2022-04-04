@@ -1,0 +1,8 @@
+creds:
+AWS_ACCESS_KEY_ID=test
+AWS_SECRET_ACCESS_KEY=test
+
+Run from CLI:
+
+aws s3 ls --endpoint-url http://localhost:4566
+aws s3 ls --endpoint-url http://localhost:4566 s3://mybucket
